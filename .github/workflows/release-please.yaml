@@ -28,5 +28,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: go
-          package-name: goreleaseplease
-          bump-minor-pre-major: true
+          # package-name: goreleaseplease
+          # bump-minor-pre-major: true
